@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as mkdirp from 'mkdirp';
+import { mkdirp } from 'mkdirp';
 
 /**
  * Write string to a file.
